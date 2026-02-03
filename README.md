@@ -2,6 +2,25 @@
 
 Googleスプレッドシートからプロキシを読み込み、有効性をチェックして結果を書き込むツールです。
 
+## ダウンロード方法
+
+### Gitを使用する場合（推奨）
+
+```bash
+git clone https://github.com/nekomeemch-bot/proxy-checker.git
+cd proxy-checker
+pip install -r requirements.txt
+```
+
+### ZIPファイルでダウンロードする場合
+
+1. [リポジトリページ](https://github.com/nekomeemch-bot/proxy-checker)にアクセス
+2. 右上の「Code」ボタン → 「Download ZIP」をクリック
+3. ZIPファイルを展開
+4. 依存パッケージをインストール: `pip install -r requirements.txt`
+
+詳細は `DOWNLOAD_GUIDE.md` を参照してください。
+
 ## 機能
 
 - Googleスプレッドシートからプロキシリストを読み込み
