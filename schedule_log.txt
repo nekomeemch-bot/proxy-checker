@@ -1,0 +1,1 @@
+エラー: --credentials または設定ファイルで credentials_file を指定してください

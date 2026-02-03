@@ -1,0 +1,10 @@
+{
+  "credentials_file": "path/to/credentials.json",
+  "spreadsheet_key": "your-spreadsheet-key-here",
+  "worksheet_name": "Sheet1",
+  "proxy_column": "A",
+  "status_column": "B",
+  "message_column": "C",
+  "start_row": 2,
+  "delay": 1.0
+}
