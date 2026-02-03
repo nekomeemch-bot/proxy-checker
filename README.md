@@ -4,7 +4,13 @@ Googleスプレッドシートからプロキシを読み込み、有効性を�
 
 ## ダウンロード方法
 
-### Gitを使用する場合（推奨）
+### 方法1: 実行ファイル（exe）をダウンロード（簡単）
+
+1. [Releasesページ](https://github.com/nekomeemch-bot/proxy-checker/releases)にアクセス
+2. 最新のリリースから `proxy_checker.exe` をダウンロード
+3. 実行するだけ（認証情報ファイル内蔵版）
+
+### 方法2: Gitを使用する場合（推奨）
 
 ```bash
 git clone https://github.com/nekomeemch-bot/proxy-checker.git
@@ -12,7 +18,7 @@ cd proxy-checker
 pip install -r requirements.txt
 ```
 
-### ZIPファイルでダウンロードする場合
+### 方法3: ZIPファイルでダウンロードする場合
 
 1. [リポジトリページ](https://github.com/nekomeemch-bot/proxy-checker)にアクセス
 2. 右上の「Code」ボタン → 「Download ZIP」をクリック
