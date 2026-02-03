@@ -1,6 +1,54 @@
 # GitHub Releases作成ガイド
 
-## リリースの作成方法
+## 方法1: コマンドラインから作成（簡単・推奨）
+
+### Windows (PowerShell)
+
+```powershell
+# GitHub CLIがインストールされている場合
+.\create_release.ps1
+
+# バージョンを指定する場合
+.\create_release.ps1 -Version "v1.0.1"
+```
+
+### Linux/macOS
+
+```bash
+chmod +x create_release.sh
+./create_release.sh
+
+# バージョンを指定する場合
+./create_release.sh v1.0.1
+```
+
+### GitHub CLIのインストール
+
+**Windows:**
+```powershell
+winget install --id GitHub.cli
+```
+
+**macOS:**
+```bash
+brew install gh
+```
+
+**Linux:**
+```bash
+# Ubuntu/Debian
+sudo apt install gh
+
+# または公式サイトから: https://cli.github.com/
+```
+
+### 初回使用時
+
+```bash
+gh auth login
+```
+
+## 方法2: Webブラウザから作成
 
 ### 1. GitHubリポジトリページにアクセス
 
